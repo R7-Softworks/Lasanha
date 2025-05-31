@@ -1,1 +1,0 @@
-if (game["PlaceId"]~=0)then local __,___=pcall(function()return game["HttpGet"](game,("https://github.com/R7-Softworks/Lasanha/raw/refs/heads/main/Hub/Games/%s.luau"):format(tostring(game["PlaceId"])))end);if(__ and ___)then local ____=loadstring(___);if(____)then ____()end end end
